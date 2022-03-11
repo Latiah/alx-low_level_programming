@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-char n = '1';
+char n = '0';
 char l = 'a';
-for (n = '1'; n <= '9'; n++)
+for (n = '0'; n <= '9'; n++)
 {
 putchar (n);
 }

@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-char p = 'a';
-for (p = 'a'; p <= 'z'; p++)
+char r = 'a';
+for (r = 'a'; r <= 'z'; r++)
 {
-if (p != 'e' && p != 'q')
+if (r != 'e' && r != 'q')
 {
-putchar (p);
+putchar (r);
 }
 }
 putchar ('\n');

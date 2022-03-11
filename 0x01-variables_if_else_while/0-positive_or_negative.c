@@ -5,10 +5,9 @@
  *
  * Return: -Always 0 (Success)
  */
-
 int main(void)
-{
-int n =98;
+{ss
+int n = -98;
 if (n > 0)
 {
 printf("%d is positive\n", n);

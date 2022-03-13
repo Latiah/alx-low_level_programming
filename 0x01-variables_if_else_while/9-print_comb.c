@@ -11,8 +11,10 @@ int n = '0';
 for (n = '0'; n <= '9'; ++n)
 {
 putchar (n);
-putchar (' ');
+if (n == '9')
+break;
 putchar (',');
+putchar (' ');
 }
 putchar ('\n');
 return (0);

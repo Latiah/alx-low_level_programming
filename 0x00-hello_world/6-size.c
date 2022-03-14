@@ -2,7 +2,6 @@
 
 /**
  * main -Entry point
- * instructions -codes
  * Return: Always 0 (success)
  */
 int main(void)

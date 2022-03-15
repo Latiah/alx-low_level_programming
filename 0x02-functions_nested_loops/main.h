@@ -1,12 +1,3 @@
-#include<stdio.h>
 
-/** 
- * main - entry
- *
- * return: Always 0 (sucess)
- */
-int main(void)
-{
-print_alphabet();
-return (0);
-}
+int _putchar (char c);
+void print_alphabet(void);

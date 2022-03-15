@@ -1,11 +1,9 @@
-#include<stdio.h>
 #include "main.h"
 
 /**
  * print_alphabet -a function used in this program
  * main - Entry point for this program
  * Return: Always 0 (success)
- * print_alphabet -a function  with no return type and arguments
  */
 void print_alphabet(void);
 int main(void)

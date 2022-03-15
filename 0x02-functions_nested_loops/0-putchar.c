@@ -8,6 +8,6 @@
 int main(void)
 {
 char s[] = "_putchar";
-fprintf(stderr, "%s\n", s);
+fprintf(stdout, "%s\n", s);
 return (0);
 }

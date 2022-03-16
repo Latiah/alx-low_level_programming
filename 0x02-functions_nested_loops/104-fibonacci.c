@@ -3,7 +3,7 @@
  * main -entry of our program
  *Return: 0 success
  */
-int main(void)
+long double main(void)
 {
 long double a, b, c, i;
 a = 0;

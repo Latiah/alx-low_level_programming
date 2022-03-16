@@ -11,7 +11,10 @@ b = 1;
 c = 1;
 for (i = 1; i <= 50; i++)
 {
+if (i != 50)
 printf("%lu, ", c);
+else
+printf("%lu", c);
 a = b;
 b = c;
 c = a + b;

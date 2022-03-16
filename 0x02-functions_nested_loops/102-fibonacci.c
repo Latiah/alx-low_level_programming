@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-double a, b, c, i;
+unsigned long int a, b, c, i;
 a = 0;
 b = 1;
 c = 1;
 for (i = 1; i <= 50; i++)
 {
-printf("%lf, ", c);
+printf("%lu, ", c);
 a = b;
 b = c;
 c = a + b;

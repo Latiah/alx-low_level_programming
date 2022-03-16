@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-int a, b, c, i;
+long double a, b, c, i;
 a = 0;
 b = 1;
 c = 1;
 for (i = 1; i <= 98; i++)
 {
-printf("%d, ", c);
+printf("%LF, ", c);
 a = b;
 b = c;
 c = a + b;

@@ -5,7 +5,7 @@
 void print_most_numbers(void)
 {
 char k;
-for (k = '0'; k <= '9')
+for (k = '0'; k <= '9'; k++)
 {
 if ((k == '2') || (k == '4'))
 {

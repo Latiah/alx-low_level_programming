@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_diagonal - for printing a diagonal \
- * @n: number to be entered
+ * print_diagonal - for printing a diagonalssss
+ * @n: number to enter
  */
 void print_diagonal(int n)
 {
@@ -11,5 +11,8 @@ for (i = 1; i <= n; i++)
 _putchar ('\\');
 _putchar ('\n');
 }
+if ((n == 0) || (n < 0))
+{
 _putchar ('\n');
+}
 }

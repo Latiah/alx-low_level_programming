@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_line - prints a line _
+ * print_line - prints a line with _
  * @n: value entered
  */
 void print_line(int n)

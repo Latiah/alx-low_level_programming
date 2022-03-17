@@ -4,14 +4,11 @@
  */
 void more_numbers(void)
 {
-int i;
-int a;
-int j;
-for (a = 1; a <= 10; a++)
+char a;
+char j;
+for (a = '1'; a <= '9'; a++)
 {
-for (i = 0; i <= 9; i++)
-{
-_putchar (i);
+_putchar (a);
 }
 for (j = 0; j <= 4; j++)
 {

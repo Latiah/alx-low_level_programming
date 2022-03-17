@@ -9,6 +9,7 @@ int i;
 for (i = 1; i <= n; i++)
 {
 _putchar ('\\');
+_putchar (' ');
 _putchar ('\n');
 }
 if ((n == 0) || (n < 0))

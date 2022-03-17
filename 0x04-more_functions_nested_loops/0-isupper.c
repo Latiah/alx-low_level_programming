@@ -1,4 +1,5 @@
 #include "main.h"
+#include<ctype.h>
 /**
  * _isupper - for turning in upper case
  * @c: character that will be entered

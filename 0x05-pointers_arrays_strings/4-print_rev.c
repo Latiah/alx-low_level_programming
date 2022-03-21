@@ -27,5 +27,5 @@ begin_ptr++;
 end_ptr--;
 }
 }
-printf("%s\n", *s);
+printf("%s\n", s);
 }

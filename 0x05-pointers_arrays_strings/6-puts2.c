@@ -8,9 +8,9 @@
 void puts2(char *str)
 {
 int l;
+l = strlen(str);
 char s[l];
 int i = 0;
-l = strlen(str);
 *str = s[0];
 while (i < l)
 {

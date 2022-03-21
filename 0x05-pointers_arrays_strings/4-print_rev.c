@@ -8,7 +8,11 @@
 void print_rev(char *s)
 {
 *s = s[100];
-int l, i, tmp, rind, lind;
+int l;
+int i;
+int tmp;
+int rind;
+int lind;
 l = strlen(s);
 lind = 0;
 rind = l - 1;

@@ -18,5 +18,5 @@ s[i] = s[rind];
 s[rind] = tmp;
 rind--;
 }
-printf("%c\n", s);
+printf("%s\n", s);
 }

@@ -7,7 +7,6 @@
  */
 void print_rev(char *s)
 {
-*s = s[100];
 int l;
 int i;
 int tmp;
@@ -18,10 +17,10 @@ lind = 0;
 rind = l - 1;
 for (i = lind; i < rind; i++)
 {
-tmp = s[i];
-s[i] = s[rind];
-s[rind] = tmp;
+tmp = *s[i];
+*s[i] = *s[rind];
+*s[rind] = tmp;
 rind--;
 }
-printf("%s\n", s);
+printf("%s\n", *s);
 }

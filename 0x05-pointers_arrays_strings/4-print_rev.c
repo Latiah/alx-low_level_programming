@@ -7,6 +7,7 @@
  */
 void print_rev(char *s)
 {
+char s[100];
 int l, i, tmp, rind, lind;
 l = strlen(s);
 lind = 0;

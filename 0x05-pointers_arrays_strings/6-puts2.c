@@ -7,14 +7,9 @@
  */
 void puts2(char *str)
 {
-int l;
-l = strlen(str);
-char s[120];
-int i = 0;
-str = &s[0];
-while (i < l)
+while (*str != '\0')
 {
-printf("%s\n", str);
-i = i + 2;
+printf("%c\n", *str);
+str = str + 2;
 }
 }

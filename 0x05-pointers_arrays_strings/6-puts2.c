@@ -7,10 +7,15 @@
  */
 void puts2(char *str)
 {
-while (*str != '\0')
+int i;
+int n = 0 ;
+while (str [n]!= '\0')
 {
-printf("%c", *str);
-str = str + 2;
+n++;
+}
+for (i = 0; i < n; i + = 2)
+{
+printf("%c", str[i];
 }
 printf("\n");
 }

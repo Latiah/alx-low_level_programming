@@ -9,7 +9,8 @@ void puts2(char *str)
 {
 while (*str != '\0')
 {
-puts(str);
+printf("%c", *str);
 str = str + 2;
 }
+printf("\n");
 }

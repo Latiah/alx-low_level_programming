@@ -7,12 +7,13 @@
  */
 void puts2(char *str)
 {
-int l;
+char s[];
 int i = 0;
 l = strlen(str);
+*str = s[0];
 while (i < l)
 {
-puts(str);
+printf("%s\n", str);
 i = i + 2;
 }
 }

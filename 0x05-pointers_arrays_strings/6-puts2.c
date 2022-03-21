@@ -11,7 +11,7 @@ int l;
 l = strlen(str);
 char s[1000];
 int i = 0;
-*str = s[0];
+str = &s[0];
 while (i < l)
 {
 printf("%s\n", str);

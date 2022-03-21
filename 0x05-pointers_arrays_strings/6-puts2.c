@@ -7,7 +7,8 @@
  */
 void puts2(char *str)
 {
-char s[];
+int l;
+char s[l];
 int i = 0;
 l = strlen(str);
 *str = s[0];

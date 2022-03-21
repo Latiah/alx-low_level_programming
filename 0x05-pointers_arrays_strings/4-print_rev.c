@@ -9,18 +9,23 @@ void print_rev(char *s)
 {
 int l;
 int i;
-int tmp;
-int rind;
-int lind;
+char ch;
+char *begin_ptr;
+char *end_ptr;
 l = strlen(s);
-lind = 0;
-rind = l - 1;
-for (i = lind; i < rind; i++)
+begin_ptr = s;
+end_ptr = s;
+for (i = 0; i < l - 1; i++)
 {
-tmp = *s[i];
-*s[i] = *s[rind];
-*s[rind] = tmp;
-rind--;
+end_ptr++;
+for (i = 0; i < l / 2; i++)
+{
+ch = *end_ptr;
+*end_ptr = *begin_ptr;
+*begin_ptr = ch;
+begin_ptr++;
+end_ptr--;
+}
 }
 printf("%s\n", *s);
 }

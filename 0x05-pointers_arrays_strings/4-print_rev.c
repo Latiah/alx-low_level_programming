@@ -24,6 +24,6 @@ ch = *end_ptr;
 *begin_ptr = ch;
 begin_ptr++;
 end_ptr--;
-}
 printf("%s\n", s);
+}
 }

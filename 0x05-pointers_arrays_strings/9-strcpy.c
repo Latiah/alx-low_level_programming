@@ -9,10 +9,10 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-if (dest == NULL)
-return (NULL);
 int i;
 i = 0;
+if (dest == NULL)
+return (NULL);
 while (src[i] != '\0')
 {
 dest[i] = src[i];

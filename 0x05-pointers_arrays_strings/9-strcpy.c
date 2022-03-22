@@ -1,3 +1,5 @@
+#include<string.h>
+#include<stdio.h>
 #include "main.h"
 /**
  * _strcpy -this copies a string

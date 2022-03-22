@@ -1,6 +1,4 @@
 #include "main.h"
-#include<string.h>
-#include<stdio.h>
 /**
  * _strcpy -this copies a string
  * @dest: a string
@@ -9,7 +7,6 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-while (*src = '\0')
-*dest++ = *src++;
+*dest = *src;
 return (dest);
 }

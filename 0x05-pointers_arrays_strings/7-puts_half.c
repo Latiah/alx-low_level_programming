@@ -7,14 +7,16 @@
  */
 void puts_half(char *str)
 {
-int len;
-int i;
-int n;
-len = strlen(str);
-n = (len - 1) / 2;
-for (i = 0; i < n; i++)
+int j, i = 0;
+while (*(str + i))
+i++;
+j = i / 2;
+if (i % 2)
+j += 1;
+while (j < i)
 {
-printf("%c", str[i]);
+_putchar(*(str + j));
+j++;
 }
-printf("\n");
+_putchar('\n');
 }

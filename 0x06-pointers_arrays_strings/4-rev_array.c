@@ -7,17 +7,11 @@
  */
 void reverse_array(int *a, int n)
 {
-while (n > 0)
+int c, t;
+for (c = 0; c < n / 2; c++)
 {
---n;
-if (n == 0)
-{
-printf("%d", a[n]);
+t = a[c];
+a[c] = a[n - c - 1];
+a[n - c - 1] = t;
 }
-else
-{
-printf("%d, ", a[n]);
-}
-}
-printf("\n");
 }

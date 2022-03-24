@@ -5,6 +5,5 @@
  */
 void print_number(int n)
 {
-unsigned long int i = n;
-_putchar(i);
+_putchar(n);
 }

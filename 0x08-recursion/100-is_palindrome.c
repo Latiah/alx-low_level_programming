@@ -6,7 +6,7 @@
  */
 int length(char *st)
 {
-if (*st != '\0')
+if (*st == '\0')
 return (0);
 else
 return (1 + length(st + 1));
@@ -18,14 +18,14 @@ return (1 + length(st + 1));
  * @k: string
  * Return: value returned
  */
-int check_palindrome(char *k, int f, int l)
+int check_palindrome(int f, int l, char *k)
 {
 if (f >= l)
 return (1);
 else if (k[f] != k[l])
 return (0);
 else
-return (check_palindrome(k, f + 1, l - 1));
+return (check_palindrome(f + 1, l - 1, k));
 }
 /**
  * is_palindrome -states that string is palindrome
@@ -36,5 +36,5 @@ int is_palindrome(char *s)
 {
 int i;
 i = length(s) - 1;
-return (check_palindrome(s, i, 0));
+return (check_palindrome(0, i, s));
 }

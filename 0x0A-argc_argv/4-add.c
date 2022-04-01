@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<ctype.h>
 /**
  * main - starting of a program
  * @argc: argument count
@@ -13,11 +12,10 @@ int sum = 0;
 int i;
 for (i = 1; i < argc; i++)
 {
-if (isdigit(argv[i] != 0))
+if (*argv[i] == 'e')
 {
 printf("Error\n");
 return (1);
-break;
 }
 else
 {

@@ -8,11 +8,11 @@
  */
 int main(int argc, char *argv[])
 {
-unsigned long int multiple;
+long int multiple;
 if (argc == 3)
 {
 multiple = atoi(argv[1]) * atoi(argv[2]);
-printf("%lu\n", multiple);
+printf("%ld\n", multiple);
 }
 else
 {

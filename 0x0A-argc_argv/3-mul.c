@@ -8,10 +8,11 @@
  */
 int main(int argc, char *argv[])
 {
+unsigned long int multiple;
 if (argc == 3)
 {
 multiple = argv[1] * argv[2];
-printf("%d\n", multiple);
+printf("%ul\n", multiple);
 }
 else
 {

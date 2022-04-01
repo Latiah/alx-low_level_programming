@@ -11,12 +11,12 @@ int main(int argc, char *argv[])
 unsigned long int multiple;
 if (argc == 3)
 {
-multiple = argv[1] * argv[2];
-printf("%ul\n", multiple);
+multiple = atoi(argv[1]) * atoi(argv[2]);
+printf("%lu\n", multiple);
 }
 else
 {
-printf("Error");
+printf("Error\n");
 return (1);
 }
 return (0);

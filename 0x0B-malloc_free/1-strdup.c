@@ -7,7 +7,7 @@
  * @str: string
  * Return: what is returned
  */
-char *_strdup(const char *str)
+char *_strdup(char *str)
 {
 char *dest = malloc(strlen(str) + 1);
 if (dest == NULL)

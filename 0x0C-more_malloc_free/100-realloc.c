@@ -23,6 +23,7 @@ else if (new_size == 0)
 {
 free(ptr);
 return (NULL);
+}
 else if (new_size == old_size)
 return (ptr);
 p = malloc(new_size);
@@ -33,5 +34,5 @@ new = old_size;
 for (i = 0; i < new; i++)
 p[i] = pointer[i];
 free(ptr);
-return (ptr);
+return (p);
 }

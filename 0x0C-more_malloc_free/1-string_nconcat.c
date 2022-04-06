@@ -24,7 +24,7 @@ if (s2 == NULL)
 j = 0;
 else
 {
-for (j = 0; s2[i]; j++)
+for (j = 0; s2[j]; j++)
 ;
 }
 if (j > n)

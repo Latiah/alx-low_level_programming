@@ -1,4 +1,5 @@
 #include "function_pointers"
+#include<stdio.h>
 /**
  * int_index - a function that returns index of first number
  * @array: array name

@@ -7,7 +7,7 @@
  * @cmp: function pointer
  * Return: what is returned
  */
-int int_index(int *array, int size, int (*cmp)(int)))
+int int_index(int *array, int size, int (*cmp)(int))
 {
 int i, a;
 if (size > 0 && array && cmp)

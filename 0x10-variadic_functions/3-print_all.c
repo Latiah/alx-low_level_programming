@@ -29,16 +29,16 @@ switch (option)
 case 1:
 printf(", ");
 }
-origin = 1;
+option = 1;
 printf("%d", va_arg(all, int));
 break;
 case 'f':
-switch (origin)
+switch (option)
 {
 case 1:
 printf(", ");
 }
-origin = 1;
+option = 1;
 printf("%f", va_arg(all, float));
 break;
 case 's':
@@ -47,7 +47,7 @@ switch (origin)
 case 1:
 printf(", ");
 }
-origin = 1;
+option = 1;
 s = va_arg(all, char*);
 if (s)
 {

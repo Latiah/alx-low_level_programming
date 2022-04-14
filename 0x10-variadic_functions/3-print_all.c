@@ -1,4 +1,4 @@
-#incude "variadic_functions.h"
+#include "variadic_functions.h"
 #include<stdio.h>
 /**
  * print_all -prints everything

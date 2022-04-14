@@ -21,7 +21,7 @@ case 1:
 printf(", ");
 }
 origin = 1;
-printf("%c", va_arg(all, char));
+printf("%c", va_arg(all, int));
 break;
 case 'i':
 switch (option)
@@ -39,10 +39,10 @@ case 1:
 printf(", ");
 }
 option = 1;
-printf("%f", va_arg(all, float));
+printf("%f", va_arg(all, double));
 break;
 case 's':
-switch (origin)
+switch (option)
 {
 case 1:
 printf(", ");

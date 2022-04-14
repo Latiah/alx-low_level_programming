@@ -20,7 +20,7 @@ switch (option)
 case 1:
 printf(", ");
 }
-origin = 1;
+option = 1;
 printf("%c", va_arg(all, int));
 break;
 case 'i':

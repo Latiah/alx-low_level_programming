@@ -14,7 +14,7 @@ unsigned int i;
 temp = h;
 for (i = 0; temp; i++)
 {
-printf("[u] %s\n", temp->len, temp->str);
+printf("[%u] %s\n", temp->len, temp->str);
 temp = temp->next;
 }
 return (i);

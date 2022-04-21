@@ -7,9 +7,11 @@
  */
 void free_list(list_t *head)
 {
+list_t remove;
 while (head != NULL)
 {
-head = head->next
-free(head);
+remove = head;
+head = head->next;
+free(remove);
 }
 }

@@ -17,7 +17,7 @@ for (i = 0; temp; i++)
 if (temp->str)
 printf("[%u] %s\n", temp->len, temp->str);
 else
-printf("[0] (nil)");
+printf("[0] (nil)\n");
 temp = temp->next;
 }
 return (i);

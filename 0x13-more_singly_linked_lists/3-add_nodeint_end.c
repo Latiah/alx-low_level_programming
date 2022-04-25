@@ -16,14 +16,15 @@ newnode = malloc(sizeof(listint_t));
 if (newnode == NULL)
 return (NULL);
 newnode->n = n;
-new->next = NULL;
+newnode->next = NULL;
 if (*head == NULL)
 {
 *head = newnode;
 return (newnode);
 }
+last = *head;
 while (last->next != NULL)
-last = last->next
+last = last->next;
 last->next = newnode;
 return (newnode);
 }

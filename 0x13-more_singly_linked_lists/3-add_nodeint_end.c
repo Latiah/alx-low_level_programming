@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<string.h>
 #include "lists.h"
 /**
  * add_nodeint_end - a function that adds a tail to a list

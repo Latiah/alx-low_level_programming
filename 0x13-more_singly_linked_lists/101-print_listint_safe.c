@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include<string.h>
 /**
- * free_listint_safe - function that frees a listint_t list
+ * print_listint_safe - function that frees a listint_t list
  * @head: list
  * Return: return listint
  */

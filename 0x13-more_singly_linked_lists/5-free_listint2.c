@@ -16,6 +16,7 @@ while (*head != NULL)
 {
 remove = *head;
 *head = (*(head))->next;
+free((*(head))->next);
 free(remove);
 }
 *head = NULL;

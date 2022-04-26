@@ -6,18 +6,17 @@
  * get_nodeint_at_index - function that returns the nth node
  * @head: list
  * @index: index
- * return: value returned
+ * Return: value returned
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-listint_t *current = head;
-int count = 0;
-while (current != NULL)
+unsigned int count = 0;
+while (i < index)
 {
-if (count == index)
-return (current->n);
+if (head->next == NULL)
+return (NULL);
+head = head->next;
 count++;
-current = current->next;
 }
-return (0);
+return (head);
 }

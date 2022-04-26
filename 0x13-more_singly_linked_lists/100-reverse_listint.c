@@ -20,4 +20,5 @@ prev = current;
 current = next;
 }
 *head = prev;
+return (*head);
 }

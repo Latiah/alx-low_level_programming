@@ -1,0 +1,5 @@
+*head = (*(head))->next;
+free(remove);
+}
+*head = NULL;
+}

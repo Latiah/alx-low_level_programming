@@ -15,8 +15,7 @@ return (NULL);
 while (*head != NULL)
 {
 remove = *head;
-*head = *head->next;
-free(*head->next);
+*head = (*(head))->next;
 free(remove);
 }
 *head = NULL;

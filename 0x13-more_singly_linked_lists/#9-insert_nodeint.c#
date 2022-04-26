@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include "lists.h"
+/**
+ * insert_nodeint_at_index - function that a new node at an given point
+ * @head: list
+ * @idx:index
+ * @n:integer
+ * Return: value returned
+ */
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
+{
+  

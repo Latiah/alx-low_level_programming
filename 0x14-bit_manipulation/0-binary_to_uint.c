@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 #include "main.h"
 /**
  * binary_to_uint - a function that converts binary to unsgned int

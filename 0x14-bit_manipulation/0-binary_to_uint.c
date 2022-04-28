@@ -13,6 +13,8 @@ unsigned int i = 0;
 int c;
 unsigned int len;
 len = strlen(b);
+if (b == NULL)
+return (0);
 for (c = len - 1; c >= 0; c--)
 {
 if (b[c] != '0' && b[c] != '1')

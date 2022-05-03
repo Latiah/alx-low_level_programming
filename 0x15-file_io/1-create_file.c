@@ -18,13 +18,13 @@ ssize_t written;
 int fd, len;
 if (filename == NULL)
 return (-1);
-fd = open(filename, O_RDWR | O_CREAT | O_TRUNC);
+fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 if (fd == -1)
 return (-1);
 if (text_content != NULL)
 {
 len = 0;
-while (*(text_content) != '\0')
+while (*(text_content + len) != '\0')
 len++;
 written = write(fd, text_content, len);
 if (written == -1)

@@ -1,11 +1,11 @@
 #include<stdio.h>
+#include "main.h"
 #include<string.h>
 #include<unistd.h>
 #include<stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include "main.h"
 /**
  * read_textfile - a function that reads a file
  * @filename: file
